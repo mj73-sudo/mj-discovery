@@ -1,7 +1,9 @@
 package main
 
-func init() {
 
+func init() {
+	LoadEnv()
+	LoadLogConfig()
 }
 
 func main() {

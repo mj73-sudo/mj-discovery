@@ -1,0 +1,5 @@
+app:
+    env: "dev"
+    port: "9063"
+log:
+    level: "DEBUG"
