@@ -1,0 +1,16 @@
+{
+    "app": {
+        "env": "dev",
+        "port": "9063"
+    },
+    "log":{
+        "level":"DEBUG"
+    },
+    "gin":{
+        "cors":{
+            "allow-origins":["*"],
+            "allow-methods":["POST","PUT","GET","DELETE","OPTION"],
+            "allow-headers":["*"]
+        }
+    }
+}
