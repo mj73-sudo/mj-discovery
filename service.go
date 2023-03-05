@@ -40,7 +40,7 @@ func (r *Service) SaveNewService() {
 	lock.Unlock()
 }
 
-func (r *Service) DeleteService() {
+func (r *Service) RemoveService() {
 	lock.Lock()
 	delete(services, r.Name)
 	lock.Unlock()

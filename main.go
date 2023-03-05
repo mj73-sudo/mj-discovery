@@ -1,4 +1,5 @@
 package main
+
 func init() {
 	LoadEnv()
 	LoadLogConfig()
@@ -6,5 +7,6 @@ func init() {
 
 func main() {
 	r := GetGin()
+
 	r.Run(":" + ApplicationPort)
 }
